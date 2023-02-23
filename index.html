@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBOMax sign</title>
+    <meta name="description" content="A demo layout of hbomax, only practice with HTML, CSS & JS">
+    <meta name="author" content="Bruno Sena">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+</head>
+<body>
+    <form class="container">
+        <img src="logo.png" alt="hbomax logo">
+        <input id="input-email" class="input" type="text" placeholder="Email or phone number">
+        <div class="infoValidate">
+        </div>
+        <div class="input-cnt">
+            <input id="input-pass" class="input" type="password" placeholder="Password">
+            <span class="eyeBtn material-symbols-outlined">
+                visibility_off
+            </span>
+        </div>
+        <div class="infoValidatePass">
+        </div>
+        <div class="btn-sign-cnt">
+            <input id="sign-btn" type="button" value="Sign In">
+            <div class="remember">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+            </div>
+        </div>
+    </form>
+    <footer class="footer">
+        <h4>Need help? Call 00-HBO-M4X-911-B4BY</h4>
+        <nav class="nav">
+            <div class="nav__links">
+                <a class="link" href="#">Movies</a>
+                <a class="link" href="#">Series</a>
+                <a class="link" href="#">Terms of Use</a>
+                <a class="link" href="#">Privacy</a>
+            </div>
+            <button class="btn-sub">
+                Subscribe
+            </button>
+        </nav>
+    </footer>
+    <a href="#footer" class="btn-open">></a>
+    <script src="js/init.js"></script>
+</body>
+</html>
